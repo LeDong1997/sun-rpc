@@ -29,7 +29,7 @@ Cập nhật hệ điều hành lên bản mới nhất
 
 `bkcs@server:~$ sudo apt-get update && sudo apt-get upgrade -y`
 
-Cài đặt chương trình dịch g++, g++ và make để biên dịch mã nguồn C/C++
+Cài đặt chương trình dịch **g++, g++** và **make** để biên dịch mã nguồn C/C++
 
 `bkcs@server:~/rpc$ sudo apt install build-essential -y`
 
@@ -54,7 +54,7 @@ Tải mã nguồn chương trình về máy chủ và máy khách
 
 `bkcs@client:~$ git clione https://github.com/LeDong1997/sun-rpc && cd sun-rpc`
 
-## Biến dịch chương trình
+## Biên dịch chương trình
 
 Chạy lệnh **`make`** để biên dịch lại mã nguồn chương  trình  trên cả máy chủ và máy khách
 
