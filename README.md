@@ -4,7 +4,7 @@ Xây dựng chương trình cung cấp lời gọi thủ tục từ xa RPC dựa
 # 1. Thiết lập môi trường
 Xây dựng hệ phân tán trong môi trường ảo hóa với VMware Workstation 15 Pro
 ## 1.1. Thông số cấu hình phần cứng
-Cài đặt 2 máy ảo gồm máy trạm RPC Client chạy Ubuntu Desktop 18.04 LTS và máy chủ RPC Server chạy Ubuntu Server 18.04 LTS
+Cài đặt 2 máy ảo gồm máy trạm RPC Client chạy **Ubuntu Desktop 18.04 LTS** và máy chủ RPC Server chạy **Ubuntu Server 18.04 LTS**
 | Máy  trạm RPC Client ||
 |--------------|-------|
 | Hệ điều hành| Ubuntu Desktop 18.04 LTS|
@@ -21,9 +21,9 @@ Cài đặt 2 máy ảo gồm máy trạm RPC Client chạy Ubuntu Desktop 18.04
 
 **Chú ý:** Nếu máy triển khai ảo hóa cấu hình yếu, có thể chỉ cần cài đặt một máy ảo Ubuntu Server 18.04 đóng vai trò client/server
 ## 1.2. Tài khoản truy nhập
-Cấu hình dịch vụ cho phép truy nhập từ xa SSH
+Cấu hình dịch vụ cho phép truy nhập từ xa SSH. Cần sử dụng quyền quản trị root để cài đặt một số gói phần mềm bổ trợ
 
-Cần sử dụng quyền quản trị root để cài đặt một số gói phần mềm bổ trợ
+Chi  tiết cài đặt hệ điều hành, cấu hình card mạng cho máy ảo, cấu hình dịch vụ SSH không được trình bày ở mục này.
 # 2. Cài đặt gói phần mềm
 Cập nhật hệ điều hành lên bản mới nhất
 
@@ -37,11 +37,11 @@ Cài đặt bộ biên dịch mã nguồn **rpcgen**
 
 `bkcs@server:~$ sudo apt-get install libc-dev-bin -y`
 
-Cài đặt dịch vụ portmapper trên Linux
+Cài đặt dịch vụ **portmapper** trên Linux
 
 `bkcs@server:~$ sudo apt-get install rpcbind -y`
 
-Cài đặt git trên Linux
+Cài đặt **git** trên Linux
 
 `bkcs@server:~$ sudo apt-get install git -y`
 
@@ -96,4 +96,4 @@ Dưới đây là chương trình đơn  giản tính tổng 2 số nguyên nh�
 - O. D. Guide, "Chapter 03, rpcgen Programming Guide," 2010.
 - H. Q. Thụy, "Giáo Trình Hệ Điều Hành Phân Tán," 2009.
 - T. H. Anh, "Bài giảng Hệ Phân Tán," Đại Học Bách Khoa Hà Nội, 2014.
-- M. v. Steen and A. S. Tanenbaum, Distributed Systems, Pearson Education, Inc, 2017. 
+- M. v. Steen and A. S. Tanenbaum, Distributed Systems, Pearson Education, Inc, 2017.
