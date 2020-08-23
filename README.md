@@ -75,7 +75,7 @@ Trên máy khách RPC chạy chương trình thực thi lời gọi thủ tục 
 
 Kết quả phía máy chủ sẽ hiển thị thông báo thủ tục đã được gọi từ xa
 ```
-bkcs@server:~/rpc$ ./add_server
+bkcs@server:~/sun-rpc$ ./add_server
 Ham "add()" duoc  goi.
 Tham so: a = 3, b = 4.
 Ket qua: 7.
@@ -84,7 +84,7 @@ Ket qua: 7.
 Kết quả phía máy khách sễ hiển thị kết quả của phép tính  tổng
 
 ```
-bkcs@client:~/rpc$ ./add_client 192.168.10.100 3 4
+bkcs@client:~/sun-rpc$ ./add_client 192.168.10.100 3 4
 Ket qua: 7.
 ```
 
