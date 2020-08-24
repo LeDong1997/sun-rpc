@@ -31,7 +31,7 @@ Cập nhật hệ điều hành lên bản mới nhất
 
 Cài đặt chương trình dịch **g++, g++** và **make** để biên dịch mã nguồn C/C++
 
-`bkcs@server:~/rpc$ sudo apt install build-essential -y`
+`bkcs@server:~$ sudo apt install build-essential -y`
 
 Cài đặt bộ biên dịch mã nguồn **rpcgen**
 
